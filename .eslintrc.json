@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["plugin:cypress/recommended", "eslint:recommended", "plugin:react/recommended"],
+  "env": {
+    "cypress/globals": true,
+    "browser": true,
+    "es2021": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": 0
+  }
+}
